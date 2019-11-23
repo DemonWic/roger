@@ -6,4 +6,4 @@ git commit -m "test"
 
 git push
 
-ssh wiktor@127.0.0.1 'cd /home/wiktor/roger && git pull'
+ssh -p 9090 wiktor@127.0.0.1 'cd /home/wiktor/roger && git pull'
